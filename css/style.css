@@ -649,7 +649,9 @@ justify-content: center;
         margin-top: 72px;
         margin-bottom: 16px;
 }
-
+.name-div {
+    margin-bottom: 8px;
+}
 .name-label {
     margin-bottom: 4px;
     font-weight: 400;

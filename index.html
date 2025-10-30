@@ -496,42 +496,65 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form" name="review">
-          <div>
-            <label for="user-name"
+          <div class="name-div">
+            <label for="user-name" class="name-label"
               >Name
-              <input type="text" id="user-name" name="user-name" />
-              <svg class="" width="18" height="18">
-                <use href="./images/icons.svg#person"></use>
-              </svg>
+              <div class="name-svg-div">
+                <input
+                  class="name-input"
+                  type="text"
+                  id="user-name"
+                  name="user-name"
+                />
+                <svg class="name-svg" width="18" height="24">
+                  <use href="./images/icons.svg#person"></use>
+                </svg>
+              </div>
             </label>
           </div>
-          <div>
-            <label for="user-phone"
+          <div class="phone-div">
+            <label for="user-phone" class="phone-label"
               >Phone
-              <input type="tel" id="user-phone" name="user-phone" />
-              <svg class="" width="18" height="18">
-                <use href="./images/icons.svg#phone"></use>
-              </svg>
+              <div class="phone-svg-div">
+                <input
+                  class="phone-input"
+                  type="tel"
+                  id="user-phone"
+                  name="user-phone"
+                />
+                <svg class="phone-svg" width="18" height="24">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+              </div>
             </label>
           </div>
 
-          <div>
-            <label for="user-email"
+          <div class="email-div">
+            <label for="user-email" class="email-label"
               >Email
-              <input type="email" id="user-email" name="user-email" />
-              <svg class="" width="18" height="18">
-                <use href="./images/icons.svg#email"></use>
-              </svg>
+              <div class="email-svg-div">
+                <input
+                  class="email-input"
+                  type="email"
+                  id="user-email"
+                  name="user-email"
+                />
+                <svg class="email-svg" width="18" height="24">
+                  <use href="./images/icons.svg#email"></use>
+                </svg>
+              </div>
             </label>
           </div>
-          <div>
-            <label for="user-comment"
+          <div class="comment-div">
+            <label for="user-comment" class="comment-label"
               >Comment
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-              ></textarea>
+              <div class="textarea-div">
+                <textarea
+                  name="user-comment"
+                  id="user-comment"
+                  placeholder="Text input"
+                ></textarea>
+              </div>
             </label>
           </div>
           <input type="checkbox" />
